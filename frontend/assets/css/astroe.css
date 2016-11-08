@@ -1,0 +1,23 @@
+
+/* The alert message box */
+.astroe-alert-box {
+    padding: 10px;
+    border: solid 2px;
+    display: none;
+}
+
+/* The close button */
+.astroe-alert-box-close {
+    margin-left: 15px;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.astroe-alert-box-close:hover {
+    color: darkgray;
+}
