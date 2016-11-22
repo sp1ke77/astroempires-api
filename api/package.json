@@ -13,7 +13,8 @@
     "@types/express": "^4.0.33",
     "@types/morgan": "^1.7.32",
     "@types/pug": "^2.0.3",
-    "jstransformer-markdown-it": "^2.0.0"
+    "jstransformer-markdown-it": "^2.0.0",
+    "nightmare": "^2.8.1"
   },
   "devDependencies": {
     "@types/node": "^6.0.46",

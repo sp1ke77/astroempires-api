@@ -4,6 +4,7 @@ import * as bodyParser from 'body-parser';
 import * as path from 'path';
 import index from './routes/index';
 import users from './routes/users';
+import login from './routes/login';
 import cookieParser = require('cookie-parser'); // this module doesn't use the ES6 default export yet
 
 const app: express.Application = express();
@@ -20,6 +21,7 @@ app.use(cookieParser());
 
 app.use('/', index);
 app.use('/users', users);
+app.use('/login', login);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
